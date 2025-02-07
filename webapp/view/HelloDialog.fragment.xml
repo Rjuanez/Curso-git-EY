@@ -31,6 +31,7 @@
                 id="closeandSaveDialog_btn2"
                 text="Corta"
                 press=".onCloseandSaveDialog"/>
+                <Text>Corta - Rama corta</Text>
         </beginButton>
     </Dialog>
 </core:FragmentDefinition>
