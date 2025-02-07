@@ -37,7 +37,8 @@
                 press=".onCancelDialog"/>
                 <Button 
                 id="closeandSaveDialog_btn2"
-                text="Larga"/>
+                text="Larga"
+                enabled="true"/>
         </beginButton>
     </Dialog>
 </core:FragmentDefinition>
