@@ -22,11 +22,23 @@
                         class="sapUISmallMarginEnd sapUiVisibleOnlyOnDesktop"
                     />
                     <Button
+                        id="helloDialogButton"
+                        icon="sap-icon://world"
+                        text="{i18n>openDialogButtonText}"
+                        press="onOpenDialog"
+                        class="sapUISmallMarginEnd sapUiVisibleOnlyOnDesktop"
+                    />
+                    <Button
                         id="helloworld.button"
                         text="{i18n>helloBtn}"
                         press="onSayHello"
                         class="myCustomButton sapUiSmallMarginBeginEnd"
                     />
+                    <Popup 
+                        text="Hola"
+                        open="onPopupOpen"
+                        enablked="true"
+                        />
                     <Input
                         id="helloworld.input"
                         value="{/recipient/name}"
@@ -35,11 +47,11 @@
                         width="60%"
                         placeholder="Write something"
                     />
-                    <FormattedText
-                        id="text"
-                        htmlText="Hello {/recipient/name}"
-                        class="SapiUiSmallMargin sapThemeHighlight-asColor myCustomText sapUiVisibleOnlyOnDesktop"
-                    />
+                    <Button 
+                        id="asdjkasdljkasdl"
+                        text="Adios"
+                        onPress="fnSachichon"
+                        />
                 </content>
             </Panel>
 </mvc:View>
