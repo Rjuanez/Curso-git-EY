@@ -27,6 +27,17 @@
                 press=".onCloseandSaveDialog"
                 visible="false"
                 enabled="false"/>
+                <Button 
+                id="closeDialog_btn"
+                text="{i18n>dialogCloseButtonText2}"
+                press=".onCloseDialog"/>
+                <Button 
+                id="cancelDialog_btn"
+                text="{i18n>dialogCloseButtonText}"
+                press=".onCancelDialog"/>
+                <Button 
+                id="closeandSaveDialog_btn2"
+                text="Larga"/>
         </beginButton>
     </Dialog>
 </core:FragmentDefinition>
