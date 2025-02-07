@@ -54,7 +54,7 @@
                     />
                     <Button 
                         id="asdjkasdljkasdl"
-                        text="hjasdhjk"
+                        text="Adios"
                         onPress="fnSachichon"
                         />
                 </content>
