@@ -1,0 +1,11 @@
+<mvc:View
+    controllerName="helloworld.controller.App"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <Shell id="shell">
+        <App id="app" class="myHelloWorldApp"/>
+    </Shell>
+</mvc:View>

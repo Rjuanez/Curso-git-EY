@@ -1,0 +1,13 @@
+/* Enter your custom styles here */
+html[dir="ltr"] .myHelloWorldApp .myCustomButton.sapMbtn {
+    margin-right: 0.125rem
+}
+
+html[dir="rtl"] .myHelloWorldApp .myCustomButton.sapMbtn {
+    margin-right: 0.125rem
+}
+
+.myHelloWorldApp .myCustomText {
+    display: inline-block;
+    font-weight: bold;
+}

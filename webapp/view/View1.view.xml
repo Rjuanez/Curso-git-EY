@@ -1,0 +1,45 @@
+<mvc:View
+    controllerName="helloworld.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    
+            <Panel
+                id="view_hello_pannel"
+                headerText="{i18n>helloPanelTitle} {/recipient/name}"
+                class="sapUiResponsiveMargin"
+                width="auto"
+                expandable="{device>/system/phone}"
+                expanded="{= !${device>/system/phone}}"
+            >
+                <content>
+                    <Button
+                        id="helloDialogButton"
+                        icon="sap-icon://world"
+                        text="{i18n>openDialogButtonText}"
+                        press="onOpenDialog"
+                        class="sapUISmallMarginEnd sapUiVisibleOnlyOnDesktop"
+                    />
+                    <Button
+                        id="helloworld.button"
+                        text="{i18n>helloBtn}"
+                        press="onSayHello"
+                        class="myCustomButton sapUiSmallMarginBeginEnd"
+                    />
+                    <Input
+                        id="helloworld.input"
+                        value="{/recipient/name}"
+                        description="Hello {/recipient/name}"
+                        valueLiveUpdate="true"
+                        width="60%"
+                        placeholder="Write something"
+                    />
+                    <FormattedText
+                        id="text"
+                        htmlText="Hello {/recipient/name}"
+                        class="SapiUiSmallMargin sapThemeHighlight-asColor myCustomText sapUiVisibleOnlyOnDesktop"
+                    />
+                </content>
+            </Panel>
+</mvc:View>
