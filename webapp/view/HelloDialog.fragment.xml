@@ -24,7 +24,8 @@
                  <Button 
                 id="closeandSaveDialog_btn2"
                 text="{i18n>dialogCloseButtonText}"
-                press=".onCloseandSaveDialog"/>
+                press=".onCloseandSaveDialog"
+                visible="false"/>
         </beginButton>
     </Dialog>
 </core:FragmentDefinition>
