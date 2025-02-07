@@ -52,6 +52,11 @@
                         htmlText="Hello {/recipient/name}"
                         class="SapiUiSmallMargin sapThemeHighlight-asColor myCustomText sapUiVisibleOnlyOnDesktop"
                     />
+                    <Button 
+                        id="asdjkasdljkasdl"
+                        text="Adios"
+                        onPress="fnSachichon"
+                        />
                 </content>
             </Panel>
 </mvc:View>
