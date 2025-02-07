@@ -34,6 +34,11 @@
                         press="onSayHello"
                         class="myCustomButton sapUiSmallMarginBeginEnd"
                     />
+                    <Popup 
+                        text="Hola"
+                        open="onPopupOpen"
+                        enablked="true"
+                        />
                     <Input
                         id="helloworld.input"
                         value="{/recipient/name}"
