@@ -47,11 +47,6 @@
                         width="60%"
                         placeholder="Write something"
                     />
-                    <FormattedText
-                        id="text"
-                        htmlText="Hello {/recipient/name}"
-                        class="SapiUiSmallMargin sapThemeHighlight-asColor myCustomText sapUiVisibleOnlyOnDesktop"
-                    />
                     <Button 
                         id="aa"
                         text="Adios"
